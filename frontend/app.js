@@ -4,7 +4,7 @@
 const EMAILJS_USER_ID = 'Ss8SLxGczWuKD90v7kyUt';
 const EMAILJS_SERVICE_ID = 'service_vrzcyjh';
 const EMAILJS_TEMPLATE_ID = 'template_8x3sslp';
-const SERVER_URL = 'http://localhost:3000';
+const SERVER_URL = 'https://sos-emergency-safety-app-b0yt.onrender.com';
 const DEFAULT_CC = '91'; // if not India, change to your country code (without +)
 
 // ---- small utility: load script dynamically ----
