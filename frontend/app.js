@@ -1,4 +1,4 @@
-// frontend/app.js — Fixed: overlay non-blocking, imSafe/StopAlarm responsive, EmailJS dynamic loader on-demand
+/// frontend/app.js — Fixed: overlay non-blocking, imSafe/StopAlarm responsive, EmailJS dynamic loader on-demand
 
 // ---- CONFIG ----
 const EMAILJS_USER_ID = 'Ss8SLxGczWuKD90v7kyUt';
