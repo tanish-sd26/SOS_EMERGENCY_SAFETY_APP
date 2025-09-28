@@ -1,0 +1,16 @@
+.sos-pulse { animation: pulse 1.6s infinite; }
+ @keyframes pulse { 0% { transform: scale(1); 
+    box-shadow: 0 0 0 0 rgba(239,68,68,0.5);} 70% { transform: scale(1.04); 
+    box-shadow: 0 0 0 18px rgba(239,68,68,0);} 100% { transform: scale(1); 
+        box-shadow: none; } 
+    }
+     #danger-overlay {
+         position: fixed;
+         inset: 0;
+         background: rgba(244,63,94,0.08); 
+         pointer-events: none; opacity: 0; 
+         transition: opacity 0.2s; 
+     }
+     #danger-overlay.active { 
+        opacity: 0.9; pointer-events: auto;
+     }
